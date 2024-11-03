@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="left-side" id="left-side">
+            <header class="header-data">
+                <div class="input-container">
+                    <input name="tarefa" class="input-task" id="input-task" />
+                    <button class="btn" id="btn">+</button>
+                </div>
+            </header>
+            <ul class="list" id="list-left"></ul>
+
+            <div id="left-side-resize-bar" class="resize-bar"></div>
+        
+        </div>
+        <div class="right-side" id="right-side">
+            <div class="content">
+                <header class="header-data"></header>
+                <ul class="list-right" id="list-right"></ul>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="scripts/utils.js"></script>
+    <script type="module" src="scripts/tasks.js"></script>
+    <script type="module" src="scripts/dates.js"></script>
+    <script type="module" src="scripts/dragResize.js"></script>
+    <script type="module" src="scripts/main.js"></script>
+</body>
+</html>
